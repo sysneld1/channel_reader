@@ -16,7 +16,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token_here")
 # ============== TELETHON (MTProto) ==============
 # API credentials для прямого доступа к Telegram API
 # Получите: https://my.telegram.org/apps -> Create application
-API_ID = os.getenv("API_ID", "your_api_id")
+API_ID = int(os.getenv("API_ID", "0"))
 API_HASH = os.getenv("API_HASH", "your_api_hash")
 
 # Имя файла сессии Telethon (сохраняется на диск для повторного использования)
